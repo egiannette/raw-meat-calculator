@@ -1,6 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
+
 var calculateTotal = function(weight, percentage) {
     console.log('weight: ' + weight + ' percentage: ' + percentage);
     var totalAmount = weight * percentage * .01;
@@ -56,9 +57,6 @@ class MeatPuckCalculator extends React.Component{
                     </div>
                 </div>
                 <h2>Total Amount in lbs: <span>{Number(amount)}</span></h2>
-
-
-                
             </div>
         );
     }
